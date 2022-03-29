@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lugo</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.css">
+  <script src="https://kit.fontawesome.com/8680f60175.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rowdies:wght@700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md  fixed-top" style="background-color:#5d0e8b; padding: 10px;">
+    <a class="navbar-brand">LUGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <input style="border-radius: 30px; width: 15rem; float: right;" class="form-control mr-sm-2 ml-auto" type="text"
+        placeholder="Search" aria-label="Search">
+      <button style="border-radius: 30px; " class="btn btn-secondary my-2 my-sm-0" type="button">Ver Ordenes</button>
+    </div>
+  </nav>
+
+
+  
+    <div>
+      <h1>
+        <div class="row">
+          <div id="pedro" class="col-3 text-truncate">
+            ¡HOLA PEDRO!
+          </div>
+        </div>
+        <span id="necesitas" class="d-inline-block text-truncate" style="max-width: 300px;">
+          ¿Que Necesitas?
+        </span>
+      </h1>
+    </div>
+
+
+    <div id="bienvenida">
+    </div>
+
+    <main>
+    <div class="container-fluid pl-5 pr-5">
+      <div class="row" id="categorias">
+
+      </div>
+      <!-- <div class=" col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="card mt-5" style="background-color: black; height: 200px; border-radius: 20px;">
+            <div class="ml-3 mt-4 col-4" style=" color: #5C3287; font-size: 50px;">
+              <i style="width: 25px;"></i>
+            </div>
+            <div class="card-body text-white mt-2">
+              <h5 class="card-title">Nombre categorias</h5>
+              <p class="card-text mt-0">3 Comercios</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="card mt-5" style="background-color: black; height: 200px; border-radius: 20px;">
+            <div class="ml-3 mt-4 col-4" style=" color: #5C3287; font-size: 50px;">
+              <i style="width: 25px;"></i>
+            </div>
+            <div class="card-body text-white mt-2">
+              <h5 class="card-title">Nombre categorias</h5>
+              <p class="card-text mt-0">3 Comercios</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-xl-3">
+          <div class="card mt-5" style="background-color: black; height: 200px; border-radius: 20px;">
+            <div class="ml-3 mt-4 col-4" style=" color: #5C3287; font-size: 50px;">
+              <i style="width: 25px;"></i>
+            </div>
+            <div class="card-body text-white mt-2">
+              <h5 class="card-title">Nombre categorias</h5>
+              <p class="card-text mt-0">3 Comercios</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  -->
+      
+        <!--Adentro de aqui para que vayan en fila-->
+       
+
+
+    </div>
+    <div id="divInferior"></div>
+
+  </main>
+  <!--modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog" role="document">
+        <div id="contenidoOrdenes" class="modal-content">
+            
+        </div>
+    </div>
+  </div>   
+
+
+
+
+  <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+       <div class="modal-header text-white header" >
+           
+           <h3 class="modal-title" id="titulo"></h3>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+       </div>
+       <div class="container">
+           <div id="empresas" class="row margen3">
+               
+           </div>
+       </div> 
+      </div>
+    </div>
+   </div>
+
+
+
+
+
+
+  <div class="footer-container">
+    <p></p>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/controlador.js"></script>
+</body>
+
+</html>
